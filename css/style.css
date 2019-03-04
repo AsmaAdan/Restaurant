@@ -12,10 +12,12 @@
 }
 #display{
   font-size: 30px;
-  float: left;
 }
 @media screen and (max-width:800px){
   .nav{
     display: block;
+  }
+  #top{
+    background-color: orange;
   }
 }
