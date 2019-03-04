@@ -3,12 +3,17 @@
 }
 .navbar{
   clear: both;
+  display: none;
 }
 .navbar:hover{
   background-color: brown;
 }
 .right{
   float: right;
+}
+#top{
+  position:fixed;
+  width: 100%;
 }
 #second{
   height: 300px;
@@ -20,8 +25,8 @@
   font-family: Srisakdi;
 }
 #startParallax{
-  height: 400px;
-  background-image: url("https://stmed.net/sites/default/files/pasta-wallpapers-28282-6893373.jpg");
+  height: 460px;
+  background-image: url("../images/pexels-photo-277253.jpeg");
   background-position:top;
   overflow: inherit;
   position: inherit;
