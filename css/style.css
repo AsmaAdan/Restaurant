@@ -16,6 +16,15 @@
 .row>p{
   margin: auto;
 }
+.details{
+  font-size: 17px;
+}
+.icon{
+  height: 30px;
+}
+#emm{
+  border-radius: 20px;
+}
 #breakfast{
   background-color: blue;
   height: 300px;
@@ -42,16 +51,21 @@
 #categories{
   height: 300px;
 }
+#logo>span{
+  background-color: black;
+  opacity: 0.6;
+}
 #logo{
   padding-top: 150px;
-  font-size: 50px;
-  color: #ABD7E6;
+  font-size: 140px;
+  color: orange;
   font-family: Srisakdi;
 }
 #startParallax{
   height: 460px;
   background-image: url("../images/pexels-photo-277253.jpeg");
   background-position:top;
+  background-attachment: fixed;
   overflow: inherit;
   position: inherit;
 }
@@ -67,5 +81,17 @@
   }
   #top{
     background-color: orange;
+  }
+  #logo{
+    padding-top: 170px;
+    font-size: 60px;
+    color: orange;
+    font-family: Srisakdi;
+  }
+  .details{
+    font-size: 13px;
+  }
+  .icon{
+    height: 10px;
   }
 }
