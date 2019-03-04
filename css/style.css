@@ -1,0 +1,21 @@
+.nav{
+  background-color: orange;
+}
+.navbar{
+  clear: both;
+}
+.navbar:hover{
+  background-color: brown;
+}
+.right{
+  float: right;
+}
+#display{
+  font-size: 30px;
+  float: left;
+}
+@media screen and (max-width:800px){
+  .nav{
+    display: block;
+  }
+}
