@@ -1,7 +1,7 @@
 # Restaurant
 ### An attempt at making a restaurant which takes all its orders online using HTML, CSS and JavaScript.
 #### By [Asma Adan](https://github.com/AsmaAdan)
-#### By [Dickson ](https://github.com/deeksonparlma)
+#### By [Dickson Nyaigoti](https://github.com/deeksonparlma)
 #### By [Joel Mkuono](https://github.com/Joelmukono)
 #### By [Wambita Sheila Fana](https://github.com/Wambita)
 #### By [Eugene Sakwa)](https://github.com/EugeneSakwa)
