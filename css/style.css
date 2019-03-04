@@ -10,8 +10,27 @@
 .right{
   float: right;
 }
+#second{
+  height: 300px;
+}
+#logo{
+  padding-top: 150px;
+  font-size: 50px;
+  color: #ABD7E6;
+  font-family: Srisakdi;
+}
+#startParallax{
+  height: 400px;
+  background-image: url("https://stmed.net/sites/default/files/pasta-wallpapers-28282-6893373.jpg");
+  background-position:top;
+  overflow: inherit;
+  position: inherit;
+}
 #display{
   font-size: 30px;
+}
+#myCarousel{
+  height: 300px;
 }
 @media screen and (max-width:800px){
   .nav{
