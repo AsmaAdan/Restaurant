@@ -1,0 +1,97 @@
+.nav{
+  background-color: orange;
+  opacity: 0.2px;
+}
+.navbar{
+  clear: both;
+  display: none;
+  opacity: 0.2px;
+}
+.navbar:hover{
+  background-color: brown;
+}
+.right{
+  float: right;
+}
+.row>p{
+  margin: auto;
+}
+.details{
+  font-size: 17px;
+}
+.icon{
+  height: 30px;
+}
+#emm{
+  border-radius: 20px;
+}
+#breakfast{
+  background-color: blue;
+  height: 300px;
+  display: none;
+}
+#lunch{
+  background-color: orange;
+  height: 300px;
+  display: none;
+}
+#dinner{
+  background-color: green;
+  height: 300px;
+  display: none;
+}
+#footer{
+  background-color: black;
+  height: 200px;
+}
+#top{
+  position:fixed;
+  width: 100%;
+}
+#categories{
+  height: 300px;
+}
+#logo>span{
+  background-color: black;
+  opacity: 0.6;
+}
+#logo{
+  padding-top: 150px;
+  font-size: 140px;
+  color: orange;
+  font-family: Srisakdi;
+}
+#startParallax{
+  height: 460px;
+  background-image: url("../images/pexels-photo-277253.jpeg");
+  background-position:top;
+  background-attachment: fixed;
+  overflow: inherit;
+  position: inherit;
+}
+#display{
+  font-size: 30px;
+}
+#myCarousel{
+  height: 300px;
+}
+@media screen and (max-width:800px){
+  .nav{
+    display: block;
+  }
+  #top{
+    background-color: orange;
+  }
+  #logo{
+    padding-top: 170px;
+    font-size: 60px;
+    color: orange;
+    font-family: Srisakdi;
+  }
+  .details{
+    font-size: 13px;
+  }
+  .icon{
+    height: 10px;
+  }
+}
