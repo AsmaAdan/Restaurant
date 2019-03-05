@@ -10,5 +10,18 @@
 
 }
 .h1{
+  text-align: center;
+  color: Green;
   font-family: 'Srisakdi', cursive;
+}
+.h2{color:orange;
+  font-family: 'Srisakdi', cursive;
+  text-align: center;
+}
+.text-info{
+  align-items: center;
+}
+.container{
+  font-size: 25px;
+  font-weight: 500;
 }
