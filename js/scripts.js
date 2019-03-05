@@ -29,4 +29,10 @@ $(document).ready(function(){
   $("#orderDinner").click(function(){
     $("#choice3").slideDown(80);
   });
+  $("#packageOne").click(function(){
+    $("#content1").slideToggle(80);
+  });
+  $("#packageTwo").click(function(){
+    $("#content2").slideToggle(80);
+  });
 });
