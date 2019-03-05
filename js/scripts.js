@@ -17,7 +17,13 @@ $(document).ready(function(){
     $("#breakfast").slideUp(800);
     $("#lunch").slideUp(800);
   });
-  $("#order").click(function(){
-    $("#choice").slideDown(80);
+  $("#orderBreakfast").click(function(){
+    $("#choice1").slideDown(80);
+  });
+  $("#orderLunch").click(function(){
+    $("#choice2").slideDown(80);
+  });
+  $("#orderDinner").click(function(){
+    $("#choice3").slideDown(80);
   });
 });

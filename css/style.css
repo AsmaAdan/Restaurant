@@ -32,7 +32,13 @@
 .row>button{
   margin: 3px;
 }
-#choice{
+.featured{
+  height: 100px;
+}
+#featuredMeal{
+  padding-left: 10px;
+}
+#choice1,#choice2,#choice3{
   display: none;
 }
 #emm{
