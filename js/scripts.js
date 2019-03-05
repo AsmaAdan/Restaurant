@@ -17,4 +17,7 @@ $(document).ready(function(){
     $("#breakfast").slideUp(800);
     $("#lunch").slideUp(800);
   });
+  $("#order").click(function(){
+    $("#choice").slideDown(80);
+  });
 });
