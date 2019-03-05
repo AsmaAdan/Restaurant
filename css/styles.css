@@ -3,25 +3,33 @@
   height: 500px;
   max-height: 500px;
 }
-.col-md-10{
+.col-md-10{align-items: center;
   font-family: 'Srisakdi', cursive;
+  padding:2px;
+  margin: auto;
 }
 .p{font-family: 'Roboto', sans-serif;
-
+  font-size: 25px;
+  font-weight: 700;
 }
-.h1{
+.name{
   text-align: center;
   color: Green;
   font-family: 'Srisakdi', cursive;
+  text-decoration: underline;
 }
-.h2{color:orange;
+.name2{color: orange;
   font-family: 'Srisakdi', cursive;
   text-align: center;
 }
 .text-info{
-  align-items: center;
+  text-align: center;
 }
 .container{
   font-size: 25px;
   font-weight: 500;
+}
+.col-sm-8{align-content: center;
+  padding:2px;
+  margin: 14%;
 }
