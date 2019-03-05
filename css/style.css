@@ -125,3 +125,24 @@
     position: inherit;
   }
 }
+.left {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#eef;
+		border:1px dotted #0f0;
+	}
+	.center {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#fee;
+		border:1px dotted #f00;
+	}
+		.right {float:right;
+			width:278px;
+			padding:10px;
+			background:#efe;
+			border:1px dotted #00f;
+		}
+	
