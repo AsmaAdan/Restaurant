@@ -7,6 +7,10 @@
   display: none;
   opacity: 0.2px;
 }
+.navbar>p{
+  font-size: 18px;
+  font-weight: bold;
+}
 .navbar:hover{
   background-color: brown;
 }
