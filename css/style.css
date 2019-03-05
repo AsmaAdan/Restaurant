@@ -45,7 +45,7 @@
   height: 200px;
 }
 #top{
-  position:fixed;
+  position:absolute;
   width: 100%;
 }
 #categories{
@@ -62,7 +62,7 @@
   font-family: Srisakdi;
 }
 #startParallax{
-  height: 460px;
+  height: 490px;
   background-image: url("../images/pexels-photo-277253.jpeg");
   background-position:top;
   background-attachment: fixed;
@@ -93,5 +93,14 @@
   }
   .icon{
     height: 10px;
+  }
+  #startParallax{
+    padding-top: 150px;
+    height: 490px;
+    background-image: url("../images/pexels-photo-277253.jpeg");
+    background-position:top;
+    background-attachment: fixed;
+    overflow: inherit;
+    position: inherit;
   }
 }
