@@ -1,3 +1,21 @@
+function search(value){
+  value = document.getElementById('search').value;
+  searchItems = document.getElementsByTagName("li");
+  var itemsArray = []
+  for(var i=0;i<=searchItems.length;i++){
+    var items = searchItems[i].innerHTML
+
+
+    itemsArray.push(items);
+
+    itemsArray.forEach(element){
+      alert(element);
+    }
+
+  }
+}
+
+
 $(document).ready(function(){
   $("#display").click(function(){
     $(".navbar").slideToggle(800);
