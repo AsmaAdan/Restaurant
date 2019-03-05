@@ -6,16 +6,19 @@ $(document).ready(function(){
     $("#breakfast").slideDown(800);
     $("#lunch").slideUp(800);
     $("#dinner").slideUp(800);
+    $("#startUp").hide(1500);
   });
   $("#noon").click(function(){
     $("#lunch").slideDown(800);
     $("#breakfast").slideUp(800);
     $("#dinner").slideUp(800);
+    $("#startUp").hide(800);
   });
   $("#night").click(function(){
     $("#dinner").slideDown(800);
     $("#breakfast").slideUp(800);
     $("#lunch").slideUp(800);
+    $("#startUp").hide(800);
   });
   $("#orderBreakfast").click(function(){
     $("#choice1").slideDown(80);

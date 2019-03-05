@@ -6,9 +6,10 @@
   clear: both;
   display: none;
   opacity: 0.2px;
+  margin: auto;
 }
 .navbar>p{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
 }
 .navbar:hover{
@@ -35,6 +36,10 @@
 .featured{
   height: 100px;
 }
+.holder{
+  height: 100px;
+  margin: auto;
+}
 #featuredMeal{
   padding-left: 10px;
 }
@@ -45,18 +50,13 @@
   border-radius: 20px;
 }
 #breakfast{
-  background-color: blue;
-  height: 300px;
   display: none;
 }
 #lunch{
-  background-color: orange;
   height: 300px;
   display: none;
 }
 #dinner{
-  background-color: green;
-  height: 300px;
   display: none;
 }
 #footer{
@@ -64,7 +64,7 @@
   height: 200px;
 }
 #top{
-  position:absolute;
+  position:fixed;
   width: 100%;
 }
 #categories{
