@@ -40,6 +40,10 @@
   height:150px;
   margin: auto;
 }
+.meal{
+  height:150px;
+  margin: auto;
+}
 #featuredMeal{
   padding-left: 10px;
 }
@@ -121,5 +125,13 @@
     background-attachment: fixed;
     overflow: inherit;
     position: inherit;
+  }
+  .holder{
+    height:60px;
+    margin: auto;
+  }
+  .meal{
+    height:150px;
+    margin: auto;
   }
 }
