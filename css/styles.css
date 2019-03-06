@@ -3,31 +3,53 @@
   height: 500px;
   max-height: 500px;
 }
-.col-md-10{align-items: center;
+h1{
   font-family: 'Srisakdi', cursive;
-  padding:2px;
+  text-align: center;
+}
+h2{
+  font-family: 'Srisakdi', cursive;
+  text-align: center;
+  text-decoration-color: red;
+  font-weight: bold;
+}
+
+.col-md-9{
+  padding:inherit;
   margin: auto;
+  width:30%;
+  border: 2px;
+  border-radius: 50%
 }
 .name{
   text-align: center;
   color: Green;
   font-family: 'Srisakdi', cursive;
   text-decoration: underline;
+  font-size: 25px;
+  font-weight: 600;
 }
-.name2{color: orange;
+.name2{
+  color: red;
   font-family: 'Srisakdi', cursive;
   text-align: center;
-}
-.text-info{
-  text-align: center;
-}
-.container{
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
 }
-.col-sm-12{
-  padding:12px 50px 0px 50px;
-
-
+.text{
+  color: orange !important;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.circle{
+  padding:inherit;
+  margin: auto;
+  width:90%;
+  border: 2px;
+  border-radius: 80%;
+  font-family: 'Srisakdi', cursive;
+  font-size: 25px;
+  font-weight: 600;
 
 }
