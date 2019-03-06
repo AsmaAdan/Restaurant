@@ -3,20 +3,28 @@
 $(document).ready(function(){
   $("#selectForm").submit(function(event){
     event.preventDefault();
-    var x = $("input[name=1]:checked").val();
-    var z = $("input[name=2]:checked").val();
-    var w = $("input[name=3]:checked").val();
-    var y = $("input[name=4]:checked").val();
+    var x = $("input[name=a1]:checked").val();
+    var z = $("input[name=a2]:checked").val();
+    var w = $("input[name=a3]:checked").val();
+    var y = $("input[name=a4]:checked").val();
     var increment = -1;
+    price=0
 
     items=[x,z,w,y];
-    values=["value1","value2","value3","value4"];
+    values=["1","2","3","4"];
 
     for(i=0;i<=items.length;i++){
        if(items[i]==values[i]){
            increment +=1
            document.getElementById("counter").innerHTML = increment;
+          values.forEach(function(elements){
+          var numbers = parseInt(elements)
+          for(j=0;j<=numbers;j++){
+            finalPrice=parseInt(price=price+numbers)
+            document.getElementById("price").innerHTML = finalPrice;
+          }
 
+        });
        }
      }
 });
