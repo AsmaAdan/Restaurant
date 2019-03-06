@@ -226,6 +226,7 @@
   }
 
   .title {
+    font-family: 'Srisakdi', cursive;
     color: grey;
     font-size: 2em;
   }
@@ -237,11 +238,13 @@
   .name{
     font-size: 3em;
     text-align: center;
+    font-family: 'Srisakdi', cursive;
 
   }
   .title{
   font-size: 3em;
   text-align: center;
+  font-family: 'Srisakdi', cursive;
   }
 
   .item,.carousel-inner{
