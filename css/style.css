@@ -112,6 +112,11 @@
   .nav{
     display: block;
   }
+  .navbar>p{
+    font-size: 10px;
+    font-weight: bold;
+    margin:auto;
+  }
   #top{
     background-color: orange;
   }
