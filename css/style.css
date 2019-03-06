@@ -104,9 +104,7 @@
 #myCarousel{
   height: 300px;
 }
-#food{
-  display: none;
-}
+
 @media screen and (max-width:800px){
   #categories{
     height: 300px;
@@ -301,4 +299,10 @@ section.awSlider > img{
 .pic{
   width:auto;
   height: 300px;;
+}
+.image-responsive{
+  width: 70%;
+  height: 200px;
+  max-height: 500px;
+  background-attachment: fixed;
 }
