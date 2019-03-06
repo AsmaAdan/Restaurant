@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 .nav{
   background-color: orange;
   opacity: 0.2px;
@@ -8,15 +5,12 @@
 .navbar{
   clear: both;
   opacity: 0.2px;
-<<<<<<< HEAD
   margin: auto;
 }
 .navbar>p{
   font-size: 15px;
   font-weight: bold;
-=======
   margin:auto;
->>>>>>> 4e4d6fdd1e471cf206f6213bed6e5e24c83538bd
 }
 .navbar:hover{
   background-color: brown;
@@ -146,8 +140,6 @@
     margin: auto;
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
@@ -187,8 +179,6 @@
       height: 70px;
     }
 }
->>>>>>> 8d017ae2d269e580227863b4385b529af744fd08
-=======
 .left {
 		float:left;
 		width:278px;
@@ -209,10 +199,7 @@
 			background:#efe;
 			border:1px dotted #00f;
 		}
-	
->>>>>>> origin/asma
-=======
+
 .foods{
   padding-top:50px;
 }
->>>>>>> 4e4d6fdd1e471cf206f6213bed6e5e24c83538bd
