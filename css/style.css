@@ -73,6 +73,7 @@
   height: 200px;
 }
 #top{
+  opacity:0.6;
   position:fixed;
   width: 100%;
 }
