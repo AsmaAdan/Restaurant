@@ -283,3 +283,7 @@ section.awSlider > img{
   transform: scale(1.1);
   opacity:.5;
 }
+.pic{
+  width:auto;
+  height: auto;
+}
