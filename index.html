@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>E Restaurant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/eat-circle-orange-512.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
-	<!--main css-->
-	<link rel="stylesheet" href="css/cust.css">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Gaegu|Kalam|Poiret+One" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 	<center>
@@ -29,6 +32,11 @@
 		<div class="navbar">
 			<p>On location</p>
 		</div>
+		<div id="shop" class="navbar">
+		<a href="#" class="btn btn-info btn-lg">
+           <span class="glyphicon glyphicon-shopping-cart"><p id="counter">1</p></span> Shopping Cart
+         </a>
+			</div>
 	</div>
 </div>
 </center>
@@ -39,7 +47,7 @@
 </div><br><br>
 <div id="categories" class="">
 	<div class="container">
-		<div class="row">
+<div class="row">
 			<p id="morning">Breakfast</p>
 			<p id="noon">Lunch</p>
 			<p id="night">Dinner</p>
@@ -49,6 +57,49 @@
 			<p>_____________</p>
 			<p>_____________</p>
 		</div>
+		<div id="startUp" class="row">
+			<img src="https://www.gatewaygettysburg.com/resourcefiles/mainimages/wyndham-breakfast-for-two-package-in-gettysburg-hotel-top.jpg" class="holder" alt="">
+			<img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/51/08/cc/lunch-package.jpg" class="holder" alt="">
+			<img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/bf/0b/db/dinner-package.jpg" class="holder" alt="">
+		</div>
+		</div>
+		<!--breakfast section-->
+		<div id="breakfast" class="container">
+			<div id="form-group">
+				<form>
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="https://www.gatewaygettysburg.com/resourcefiles/mainimages/wyndham-breakfast-for-two-package-in-gettysburg-hotel-top.jpg" class="meal" alt=""><br>
+							<span id="packageOne" class="caret"></span><span id="packageOne">Description</span>
+							<p id="content1">Coffee <br> Bread <br> Eggs <br> Grapes</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="https://olo-images-live.imgix.net/9c/9cf9aba367a4491d89f5ddcc227a9879.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=500&h=333&fit=fill&fm=png32&bg=transparent&s=39190b5a3d1b6faeb656e6d97d68ff95" class="meal" alt=""><br>
+							<span id="packageTwo" class="caret"></span><span>Description</span>
+							<p id="content2">Coffee <br> Bread <br> Sausages <br> Scrambled eggs</p>
+						</div>
+					</div>
+					<button type="button" id="orderBreakfast" class="btn btn-success" name="button">Order</button><br>
+					<div id="choice1" class="row">
+						<button type="submit" class="btn btn-warning" name="button">Pre-order</button>
+						<button type="submit" class="btn btn-warning" name="button">Book a spot</button>
+						<button type="submit" class="btn btn-warning" name="button">My own Waiter</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--Lunch Section-->
+		<div id="lunch" class="container">
+			<div id="form-group">
+				<form>
+					<button type="button" id="orderLunch" class="btn btn-success" name="button">Order</button><br>
+					<div id="choice2" class="row">
+						<button type="submit" class="btn btn-warning" name="button">Pre-order</button>
+						<button type="submit" class="btn btn-warning" name="button">Book a spot</button>
+						<button type="submit" class="btn btn-warning" name="button">My own Waiter</button>
+					</div>
+				</form>
+			</div>
 		<div class="row" id="menu">
 		<div class="left">
    <h1>Menu 1</h1>
@@ -166,51 +217,54 @@
 		 </form>
 		 </div>
 
-
-
-
 		</div>
 
 </div>
+<div class="container">
+<section class="awSlider">
+	<div class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target=".carousel" data-slide-to="0" class="active"></li>
+			<li data-target=".carousel" data-slide-to="1"></li>
+			<li data-target=".carousel" data-slide-to="2"></li>
+		</ol>
 
-<h2 style="text-align:center">Our Customer Reviews</h2>
-<div class="row fine">
-<div class="card">
-  <img src="images/cust1.jpg" alt="John" style="width:100%">
-  <h1>Daniel</h1>
-  <p class="title">jonhdoe@gmail.com</p>
-  <p>The website is great and easy to use. The customer service is great and meals are delivered on time</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-  </div>
-</div>
-<div class="card">
-  <img src="images/cust2.jpg" alt="John" style="width:100%">
-  <h1>Leila Doe</h1>
-  <p class="title">jonhdoe@gmail.com</p>
-  <p>The website is great and easy to use. The customer service is great and meals are delivered on time</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-  </div>
-</div>
-<div class="card">
-  <img src="images/cust3.jpg" alt="John" style="width:100%">
-  <h1>Matthew Doe</h1>
-  <p class="title">jonhdoe@gmail.com</p>
-  <p>The website is great and easy to use. The customer service is great and meals are delivered on time</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-  </div>
-</div>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="card">
+					<h2 class="title">Customer Review</h2>
+					<img src="images/cust3.jpg" alt="John" class="pic">
+					<h1 class="name">Daniel Smith</h1>
+					<p class="title">danielthegreat@gmail.com</p>
+					<p class="review">The website is great and easy to use. The customer service is great and meals are delivered on time</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<h2 class="title">Customer Review</h2>
+					<img src="images/cust7.jpg" alt="John" class="pic">
+					<h1 class="name">Leila Tutu</h1>
+					<p class="title">leilatutu@gmail.com</p>
+					<p class="review">I love the fact that they have flexible operating hours. I can book a restuarant and go there to find my food waiting for me!</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<h2 class="title">Customer Review</h2>
+					<img src="images/cust5.jpg" alt="John" class="pic">
+					<h1 class="name">Amwoma</h1>
+					<p class="title">amwoma@gmail.com</p>
+					<p class="review">The website is amazing. The food is fingerlicking and talk about the service! Splendid</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+
+	</div>
+</section>
 </div>
 <br>
 <div id="footer">
@@ -227,5 +281,7 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+
 </body>
+
 </html>
