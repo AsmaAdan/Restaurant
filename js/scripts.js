@@ -17,7 +17,6 @@ $(document).ready(function(){
   $("#night").click(function(){
     $("#dinner").slideDown(800);
     $("#breakfast").slideUp(800);
-    $("#lunch").slideUp(800);
     $("#startUp").hide(800);
   });
   $("#orderBreakfast").click(function(){
