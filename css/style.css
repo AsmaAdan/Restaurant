@@ -104,6 +104,13 @@
 #myCarousel{
   height: 300px;
 }
+#morning, #noon, #dinner{
+color: orange !important;
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+font-family: 'Roboto', sans-serif;
+}
 
 @media screen and (max-width:800px){
   #categories{
