@@ -66,7 +66,9 @@
   display: none;
 }
 #footer{
-  background-color: black;
+  background-color: #CD853F;
+  #A0522D;
+  #8B4513;
   height: 200px;
 }
 #top{
@@ -137,6 +139,7 @@
     margin: auto;
   }
 }
+<<<<<<< HEAD
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
@@ -177,3 +180,26 @@
     }
 }
 >>>>>>> 8d017ae2d269e580227863b4385b529af744fd08
+=======
+.left {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#eef;
+		border:1px dotted #0f0;
+	}
+	.center {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#fee;
+		border:1px dotted #f00;
+	}
+		.right {float:right;
+			width:278px;
+			padding:10px;
+			background:#efe;
+			border:1px dotted #00f;
+		}
+	
+>>>>>>> origin/asma

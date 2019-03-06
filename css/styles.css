@@ -1,1 +1,37 @@
+<<<<<<< HEAD
 
+=======
+.image-responsive{
+  width: 100%;
+  height: 500px;
+  max-height: 500px;
+}
+.col-md-10{align-items: center;
+  font-family: 'Srisakdi', cursive;
+  padding:2px;
+  margin: auto;
+}
+.name{
+  text-align: center;
+  color: Green;
+  font-family: 'Srisakdi', cursive;
+  text-decoration: underline;
+}
+.name2{color: orange;
+  font-family: 'Srisakdi', cursive;
+  text-align: center;
+}
+.text-info{
+  text-align: center;
+}
+.container{
+  font-size: 25px;
+  font-weight: 500;
+}
+.col-sm-12{
+  padding:12px 50px 0px 50px;
+
+
+
+}
+>>>>>>> origin/asma
