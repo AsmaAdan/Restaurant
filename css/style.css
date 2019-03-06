@@ -8,11 +8,15 @@
 .navbar{
   clear: both;
   opacity: 0.2px;
+<<<<<<< HEAD
   margin: auto;
 }
 .navbar>p{
   font-size: 15px;
   font-weight: bold;
+=======
+  margin:auto;
+>>>>>>> 4e4d6fdd1e471cf206f6213bed6e5e24c83538bd
 }
 .navbar:hover{
   background-color: brown;
@@ -25,6 +29,9 @@
 }
 .details{
   font-size: 17px;
+}
+#shop{
+  float:right;
 }
 .icon{
   height: 30px;
@@ -140,6 +147,7 @@
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
@@ -203,3 +211,8 @@
 		}
 	
 >>>>>>> origin/asma
+=======
+.foods{
+  padding-top:50px;
+}
+>>>>>>> 4e4d6fdd1e471cf206f6213bed6e5e24c83538bd
