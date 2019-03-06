@@ -8,10 +8,6 @@
   padding:2px;
   margin: auto;
 }
-.p{font-family: 'Roboto', sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-}
 .name{
   text-align: center;
   color: Green;
@@ -29,7 +25,9 @@
   font-size: 25px;
   font-weight: 500;
 }
-.col-sm-8{align-content: center;
-  padding:2px;
-  margin: 14%;
+.col-sm-12{
+  padding:12px 50px 0px 50px;
+
+
+
 }
