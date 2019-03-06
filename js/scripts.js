@@ -36,6 +36,11 @@ $(document).ready(function(){
     $("#content2").slideToggle(80);
   });
 });
+$("#orderBreakfast").click(function(event){
+        event.preventDefault();
+        $("#food").slideToggle(800);
+});
+
 var x = document.getElementById("myCheck1").value;
 var z = document.getElementById("myCheck1").value;
 var w = document.getElementById("myCheck1").value;

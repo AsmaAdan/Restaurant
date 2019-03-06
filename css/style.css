@@ -103,6 +103,9 @@
 #myCarousel{
   height: 300px;
 }
+#food{
+  display: none;
+}
 @media screen and (max-width:800px){
   .nav{
     display: block;
