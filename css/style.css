@@ -4,7 +4,6 @@
 }
 .navbar{
   clear: both;
-  display: none;
   opacity: 0.2px;
   margin: auto;
 }
@@ -134,4 +133,43 @@
     height:150px;
     margin: auto;
   }
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 200px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card>img{
+    height: 120px;
+  }
+  .row.fine{
+    width: 100%;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+@media screen and (max-width:800px){
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: auto;
+      max-width: 100px;
+      text-align: center;
+      font-family: arial;
+      max-height: 200px;
+    }
+    .card>p,.card>h1{
+      font-size: 10px;
+    }
+    .card>img{
+      height: 70px;
+    }
 }
