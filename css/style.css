@@ -4,8 +4,8 @@
 }
 .navbar{
   clear: both;
-  display: none;
   opacity: 0.2px;
+  margin:auto;
 }
 .navbar:hover{
   background-color: brown;
@@ -18,6 +18,9 @@
 }
 .details{
   font-size: 17px;
+}
+#shop{
+  float:right;
 }
 .icon{
   height: 30px;

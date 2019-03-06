@@ -1,19 +1,16 @@
-function search(value){
-  value = document.getElementById('search').value;
-  searchItems = document.getElementsByTagName("li");
-  var itemsArray = []
-  for(var i=0;i<=searchItems.length;i++){
-    var items = searchItems[i].innerHTML
+var x = document.getElementById("myCheck1").value;
+var z = document.getElementById("myCheck1").value;
+var w = document.getElementById("myCheck1").value;
+var y = document.getElementById("myCheck1").value;
+var increment = 0;
 
-
-    itemsArray.push(items);
-
-    itemsArray.forEach(element){
-      alert(element);
-    }
-
+function increase(){
+  if (x=true){
+    increment+=1;
+    document.getElementById("counter").innerHTML = increment;
   }
 }
+
 
 
 $(document).ready(function(){

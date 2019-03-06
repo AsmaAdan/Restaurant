@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>E Restaurant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/eat-circle-orange-512.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
@@ -28,7 +30,11 @@
 		<div class="navbar">
 			<p>On location</p>
 		</div>
-
+		<div id="shop" class="navbar">
+		<a href="#" class="btn btn-info btn-lg">
+           <span class="glyphicon glyphicon-shopping-cart"><p id="counter">1</p></span> Shopping Cart
+         </a>
+			</div>
 	</div>
 </div>
 </center>
@@ -39,32 +45,23 @@
 </div><br><br>
 <div id="categories" class="">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-8">
-			<div class="search">
-			<input type="text" id ="search" class="form-control" placeholder="search here">
-			<input type="button" class="form-control" value="search here" onclick="search()">
-		</div>
-	</div>
-	<div class="col-md-2">
-	</div>
-	</div>
-  <div class="row">
-		<div class="col-md-12">
-			<ul id="searchitems">
-				<li>Item1</li>
-				<li>JOel</li>
-				<li>Angela</li>
-				<li>Morrocow</li>
-				<li>Kenya</li>
-			</ul>
-		</div>
-	</div>
 
 	<div class="foods">
 		<div class="row">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<div class="selectOptions">
+					<form id="selectForm">
+					item1: <input type="checkbox" id="myCheck1" value="value1">
+					item1: <input type="checkbox" id="myCheck2" value="value2">
+					item1: <input type="checkbox" id="myCheck3" value="value3">
+					item1: <input type="checkbox" id="myCheck4" value="value4">
+				</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+		</div>
 			<p id="morning">Breakfast</p>
 			<p id="noon">Lunch</p>
 			<p id="night">Dinner</p>
