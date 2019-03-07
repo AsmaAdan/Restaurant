@@ -83,6 +83,9 @@
   height: 300px;
   margin-bottom: 100px;
 }
+#people{
+  width: 90px;
+}
 #logo>span{
   background-color: black;
   opacity: 0.6;
