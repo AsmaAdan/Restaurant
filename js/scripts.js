@@ -10,7 +10,7 @@ $(document).ready(function(){
     var g = $("input[name=Bf7]:checked").val();
     var h = $("input[name=Bf8]:checked").val();
     var i = $("input[name=Bf9]:checked").val();
-    var j = $("input[name=Bf10]:checked").val(); 
+    var j = $("input[name=Bf10]:checked").val();
     var k = $("input[name=Bf11]:checked").val();
     var l = $("input[name=Bf12]:checked").val();
     var increment = -1;
@@ -25,7 +25,6 @@ $(document).ready(function(){
            increment +=1
            document.getElementById("counter").innerHTML = increment;
            t=totalValues.push(parseInt(values));
-           price+=t[i];
 
 
         }
