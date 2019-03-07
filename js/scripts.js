@@ -12,21 +12,25 @@ $(document).ready(function(){
 
     items=[x,z,w,y];
     values=["1","2","3","4"];
-
+    totalValues=[];
     for(i=0;i<=items.length;i++){
        if(items[i]==values[i]){
            increment +=1
            document.getElementById("counter").innerHTML = increment;
-          values.forEach(function(elements){
-          var numbers = parseInt(elements)
-          for(j=0;j<=numbers;j++){
-            finalPrice=parseInt(price=price+numbers)
-            document.getElementById("price").innerHTML = finalPrice;
-          }
+           t=totalValues.push(parseInt(values));
 
-        });
+           price+=t;
+           document.getElementById("price").innerHTML = price-=1;
+
+        }
        }
-     }
+
+    // for(j=0;j<=values.length;j++){
+    //     finalPrice=parseInt(values)
+    //     price+=finalPrice[j];
+    //     document.getElementById("price").innerHTML = price;
+    // }
+
 });
 });
 
