@@ -21,11 +21,15 @@ h2{
   border: 2px;
   border-radius: 50%
 }
+p{
+  font-size: 2em;
+}
 .name{
   text-align: center;
   color: Green;
   font-family: 'Srisakdi', cursive;
   text-decoration: underline;
+<<<<<<< HEAD
   font-size: 25px;
   font-weight: 600;
 }
@@ -35,6 +39,29 @@ h2{
   text-align: center;
   font-size: 25px;
   font-weight: 600;
+=======
+  font-size: 5em;
+}
+.name2{
+  color: #FF7417;
+  font-family: 'Srisakdi', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+.location{
+  color: white;
+  padding: 2%;
+}
+.well,#well {
+  min-height: 20px;
+  padding: 2%;
+  margin-bottom: 20px;
+  background-color:#FEBF6E;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+>>>>>>> 2c9403a07e71837ea044788bd2dcad355dd943ef
 }
 .text{
   color: orange !important;
@@ -76,4 +103,9 @@ h2{
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: orange;
+}
+#body{
+  background-image: url("../images/pic.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
