@@ -112,10 +112,12 @@ font-size: 25px;
 font-weight: 600;
 font-family: 'Roboto', sans-serif;
 }
-body{
-  max-width: 100%;
+main{
+  max-width: 98%;
   overflow-x: hidden;
   z-index: 1;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 @media screen and (max-width:800px){
@@ -349,6 +351,6 @@ input{
 }
 .food{
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   color: orange;
 }
