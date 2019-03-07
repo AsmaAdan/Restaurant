@@ -5,6 +5,11 @@
 .navbar{
   clear: both;
   opacity: 0.2px;
+  margin: auto;
+}
+.navbar>p{
+  font-size: 15px;
+  font-weight: bold;
   margin:auto;
 }
 .navbar:hover{
@@ -25,34 +30,56 @@
 .icon{
   height: 30px;
 }
-#emm{
-  border-radius: 20px;
+.btn-warning{
+  padding: 1px 2px 2px 2px;
 }
-#breakfast{
-  background-color: blue;
-  height: 300px;
+.row>button{
+  margin: 3px;
+}
+.featured{
+  height: 100px;
+}
+.holder{
+  height:150px;
+  margin: auto;
+}
+.meal{
+  height:150px;
+  margin: auto;
+}
+#featuredMeal{
+  padding-left: 10px;
+}
+#choice1,#choice2,#choice3{
+  display: none;
+}
+#emm{
+  border-radius: 30px;
+}
+#breakfast,#content1,#content2{
   display: none;
 }
 #lunch{
-  background-color: orange;
   height: 300px;
   display: none;
 }
 #dinner{
-  background-color: green;
-  height: 300px;
   display: none;
 }
 #footer{
-  background-color: black;
+  background-color: #CD853F;
+  #A0522D;
+  #8B4513;
   height: 200px;
 }
 #top{
+  z-index: 2;
   position:fixed;
   width: 100%;
 }
 #categories{
   height: 300px;
+  margin-bottom: 100px;
 }
 #logo>span{
   background-color: black;
@@ -65,7 +92,7 @@
   font-family: Srisakdi;
 }
 #startParallax{
-  height: 460px;
+  height: 490px;
   background-image: url("../images/pexels-photo-277253.jpeg");
   background-position:top;
   background-attachment: fixed;
@@ -78,12 +105,36 @@
 #myCarousel{
   height: 300px;
 }
+#morning, #noon, #night{
+color: orange !important;
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+font-family: 'Roboto', sans-serif;
+}
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
 @media screen and (max-width:800px){
+  #categories{
+    height: 300px;
+    margin-bottom: auto;
+  }
   .nav{
     display: block;
   }
+  .navbar>p{
+    font-size: 10px;
+    font-weight: bold;
+    margin:auto;
+  }
   #top{
+    z-index: 2;
     background-color: orange;
+
   }
   #logo{
     padding-top: 170px;
@@ -97,7 +148,198 @@
   .icon{
     height: 10px;
   }
+  #startParallax{
+    padding-top: 150px;
+    height: 490px;
+    background-image: url("../images/pexels-photo-277253.jpeg");
+    background-position:top;
+    background-attachment: fixed;
+    overflow: inherit;
+    position: inherit;
+  }
+  .holder{
+    height:50px;
+    margin: auto;
+  }
+  .meal{
+    height:150px;
+    margin: auto;
+  }
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: auto;
+      max-height: 100px;
+      max-width: 100px;
+      text-align: center;
+      font-family: arial;
+    }
+    .card>p,.card>h1,.card>h2{
+      font-size: 10px;
+    }
+    .card>img{
+      height: 100px;
+    }
+    .item,.carousel-inner{
+      width: 100%;
+      height: 180px;
+    }
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card>img{
+    height: 100px;
+    width: auto;
+  }
+  .card>p,.card>h1,.card>h2{
+    font-size: 10px;
+  }
+  .row.fine{
+    width: 100%;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+.left {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#eef;
+		border:1px dotted #0f0;
+	}
+	.center {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#fee;
+		border:1px dotted #f00;
+	}
+		.right {float:right;
+			width:278px;
+			padding:10px;
+			background:#efe;
+			border:1px dotted #00f;
+		}
+
 .foods{
   padding-top:50px;
+}
+  .pic{
+    height: 400px;
+    width: auto;
+  }
+
+  .title {
+    color: grey;
+    font-size: 2em;
+  }
+  .review{
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+  }
+  .name{
+    font-size: 3em;
+    text-align: center;
+
+  }
+  .title{
+  font-size: 3em;
+  text-align: center;
+  }
+
+  .item,.carousel-inner{
+    width: 100%;
+    height: 210px;
+  }
+  section.awSlider .carousel{
+  display:table;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+	-webkit-box-shadow: 0 0 4px #444;
+	box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+section.awSlider{
+  margin:30px auto;
+  padding:30px;
+  position:relative;
+  display:table;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section.awSlider:hover > img{
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity:1;
+}
+
+section.awSlider img{
+   pointer-events: none;
+}
+
+section.awSlider > img{
+  position:absolute;
+  top:0px;
+  z-index:1;
+  transition:all .3s;
+  filter: blur(1.8vw);
+  -webkit-filter: blur(2vw);
+  -moz-filter: blur(2vw);
+  -o-filter: blur(2vw);
+  -ms-filter: blur(2vw);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity:.5;
+}
+.pic{
+  width:auto;
+  height: 300px;;
+}
+.image-responsive{
+  width: 450px;
+  height: 400px;
+  max-height: 500px;
+  background-attachment: fixed;
+
+}
+.name{
+  text-align: center;
+  color: red;
+  font-family: 'Srisakdi', cursive;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+}
+.name2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.well{
+  width: 800px;
 }
