@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
   $("#food").submit(function(event){
     event.preventDefault();
@@ -23,10 +21,11 @@ $(document).ready(function(){
     totalValues=[];
     totalValues.length=0;
     for(i=0;i<=items.length;i++){
-       if(items[i]==values[i]){
+       if(items[i]===values[i]){
            increment +=1
            document.getElementById("counter").innerHTML = increment;
            t=totalValues.push(parseInt(values));
+           price+=t[i];
 
 
         }
