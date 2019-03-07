@@ -67,7 +67,7 @@
   display: none;
 }
 #footer{
-  background-color: #A0522D;
+  background-color: #FC9E15;
   #8B4513;
   height: 350px;
   width: 95%;
@@ -360,7 +360,7 @@ blockquote::after{
   height: 450px;
   max-height: 500px;
   background-attachment: fixed;
- z-index: 1;
+
 }
 .name{
   text-align: center;
@@ -381,8 +381,8 @@ p{
   font-weight: 400;
 }
 .well{
-  z-index: 2;
-  width: 700px;
+
+  width: 650px;
 }
 input{
   width: 15px;
