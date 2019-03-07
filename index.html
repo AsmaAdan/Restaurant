@@ -31,9 +31,9 @@
 			<p>On location</p>
 		</div>
 		<div id="shop" class="navbar">
-		<a href="#" class="btn btn-info btn-lg">
+		<button class="btn btn-info btn-lg">
            <span class="glyphicon glyphicon-shopping-cart"><p id="counter"></p><p id="price"></p></span> Shopping Cart
-         </a>
+         </button>
 			</div>
 	</div>
 </div>
@@ -45,7 +45,7 @@
 </div><br><br>
 <main>
 <div id="menu">
-<form id="food" action="https://formspree.io/dicksonparlma@email.com" method="POST">
+<form id="food" action="mailto:dicksonparlma@gmail.com" method="post" enctype="text/plain">
 
 	<div class="row">
 
@@ -61,7 +61,7 @@
 			<h2 class="name2">ITALIAN BRUNCH TORTE..............................Ksh. 199</h2>
 			<p>This layered breakfast bake is often served with a salad of mixed greens and tomato wedges.</p>
 			<br>
-			<input size=10px type="checkbox" name="Bf1" value="199"><span class="food">Torte</span></input>
+			<input size=10px oninput="event1" type="checkbox" name="Bf1" value="199"><span class="food">Torte</span></input>
 			<br>
 			<br>
 			<h2 class="name2">VEGGIE SAUSAGE STRATA..........................Ksh. 299</h2>
@@ -145,7 +145,7 @@
 				<h2 class="name2">POTATO TOPPED CHEESE LOAF......................Ksh. 1099</h2>
 				<p>Here's a meat loaf that constitutes a whole meal. The beef, potatoes, corn and beans will satisfy the heartiest of appetites.</p>
 				<br>
-				<input type="checkbox" name="Bf10" value="1099"><span class="food">Loaf</span></input>
+				<input type="checkbox" class="one" name="Bf10" value="1099"><span class="food">Loaf</span></input>
 				<br>
 				<br>
 				<h2 class="name2">BLACK BEAN TORTILLA PIE...............................Ksh.1200</h2>
@@ -161,7 +161,13 @@
 				<br>
 			</div>
 			<p>Number of people <input type="number" id="people" required placeholder="Number"></p><br>
-			<button type="submit" class="btn btn-info">Add to Cart</button><br><br><button type="submit" name="button" class="btn btn-success">Send order</button>
+			<select id="delivery" name="">
+				<option value="Pre-order">Pre-order</option>
+				<option value="Delivery">delivery</option>
+				<option value="On-location">On-location</option>
+			</select>
+			<button type="submit" class="btn btn-info">Add to Cart</button>
+			<button type="button" id="sendOrder"  class="btn btn-info" name="button">Complete order</button>
 		</div>
 	</div>
 	</form>

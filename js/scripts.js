@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  var order=[];
   $("#food").submit(function(event){
     event.preventDefault();
     var a = $("input[name=Bf1]:checked").val();
@@ -13,6 +14,7 @@ $(document).ready(function(){
     var j = $("input[name=Bf10]:checked").val();
     var k = $("input[name=Bf11]:checked").val();
     var l = $("input[name=Bf12]:checked").val();
+    var delivery=$("#delivery").val();
     var people = $("#people").val();
     var increment = -1;
     var price=0
@@ -26,20 +28,21 @@ $(document).ready(function(){
            increment +=1
            document.getElementById("counter").innerHTML = increment;
            t=totalValues.push(parseInt(values));
+           z=order.push(parseInt(values))
 
 
         }
       }for(j=0;j<=11;j++){
         if(values[j]==items[j]){
         price+=parseInt(values[j]);
+        order.push("Sh"+(price*people));
         document.getElementById("price").innerHTML = "Sh"+(price*people);
+
       }
     }
-
-
-
-
+    window.location.href = 'mailto:address@dmail.com?subject=Hello there&body=Your bill is '+" "+(price*people)+" "+"for"+" "+delivery;
 });
+
 });
 
 
