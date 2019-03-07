@@ -33,7 +33,7 @@ $(document).ready(function(){
       }for(j=0;j<=11;j++){
         if(values[j]==items[j]){
         price+=parseInt(values[j]);
-        document.getElementById("price").innerHTML = price;
+        document.getElementById("price").innerHTML = "Sh"+price;
       }
     }
 
