@@ -13,6 +13,7 @@ $(document).ready(function(){
     var j = $("input[name=Bf10]:checked").val();
     var k = $("input[name=Bf11]:checked").val();
     var l = $("input[name=Bf12]:checked").val();
+    var people = $("#people").val();
     var increment = -1;
     var price=0
 
@@ -31,7 +32,7 @@ $(document).ready(function(){
       }for(j=0;j<=11;j++){
         if(values[j]==items[j]){
         price+=parseInt(values[j]);
-        document.getElementById("price").innerHTML = "Sh"+price;
+        document.getElementById("price").innerHTML = "Sh"+(price*people);
       }
     }
 
