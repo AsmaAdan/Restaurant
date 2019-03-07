@@ -54,7 +54,7 @@
   display: none;
 }
 #emm{
-  border-radius: 20px;
+  border-radius: 30px;
 }
 #breakfast,#content1,#content2{
   display: none;
@@ -73,6 +73,7 @@
   height: 200px;
 }
 #top{
+  z-index: 2;
   position:fixed;
   width: 100%;
 }
@@ -104,6 +105,19 @@
 #myCarousel{
   height: 300px;
 }
+#morning, #noon, #night{
+color: orange !important;
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+font-family: 'Roboto', sans-serif;
+}
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
 @media screen and (max-width:800px){
   #categories{
     height: 300px;
@@ -112,8 +126,15 @@
   .nav{
     display: block;
   }
+  .navbar>p{
+    font-size: 10px;
+    font-weight: bold;
+    margin:auto;
+  }
   #top{
+    z-index: 2;
     background-color: orange;
+
   }
   #logo{
     padding-top: 170px;
@@ -293,4 +314,32 @@ section.awSlider > img{
 .pic{
   width:auto;
   height: 300px;;
+}
+.image-responsive{
+  width: 450px;
+  height: 400px;
+  max-height: 500px;
+  background-attachment: fixed;
+
+}
+.name{
+  text-align: center;
+  color: red;
+  font-family: 'Srisakdi', cursive;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+}
+.name2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.well{
+  width: 800px;
 }
