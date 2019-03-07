@@ -1,3 +1,65 @@
+
+
+$(document).ready(function(){
+  $("#food").submit(function(event){
+    event.preventDefault();
+    var a = $("input[name=Bf1]:checked").val();
+    var b = $("input[name=Bf2]:checked").val();
+    var c = $("input[name=Bf3]:checked").val();
+    var d = $("input[name=Bf4]:checked").val();
+    var e = $("input[name=Bf5]:checked").val();
+    var f = $("input[name=Bf6]:checked").val();
+    var g = $("input[name=Bf7]:checked").val();
+    var h = $("input[name=Bf8]:checked").val();
+    var i = $("input[name=Bf9]:checked").val();
+    var j = $("input[name=Bf10]:checked").val();
+    var k = $("input[name=Bf11]:checked").val();
+    var l = $("input[name=Bf12]:checked").val();
+    var increment = -1;
+    price=0
+
+    items=[a,b,c,d,e,f,g,h,i,j,k,l];
+    values=["199","299","300","200","599","499","699","250","999","1099","1200","450"];
+    prices=[199,299,300,200,599,499,699,250,999,1099,1200,450]
+    totalValues=[];
+    totalValues.length=0;
+    for(i=0;i<=items.length;i++){
+       if(items[i]==values[i]){
+           increment +=1
+           document.getElementById("counter").innerHTML = increment;
+           t=totalValues.push(parseInt(values));
+
+
+        }
+        for(var j=i;j<=prices.length;j++){
+            prices[j]==items[j]
+            price+=prices
+
+
+
+
+        }
+       }
+
+
+
+
+
+       // price+=t;
+       // document.getElementById("price").innerHTML = price;
+
+    //     finalPrice=parseInt(values)
+    //     price+=finalPrice[j];
+    //     document.getElementById("price").innerHTML = price;
+    // }
+
+});
+});
+
+
+
+
+
 $(document).ready(function(){
   $("#display").click(function(){
     $(".navbar").slideToggle(800);
@@ -36,64 +98,6 @@ $(document).ready(function(){
     $("#content2").slideToggle(80);
   });
 });
-$(document).ready(function(){
-  $("#selectForm").submit(function(event){
-    event.preventDefault();
-    var x = $("input[name=a1]:checked").val();
-    var z = $("input[name=a2]:checked").val();
-    var w = $("input[name=a3]:checked").val();
-    var y = $("input[name=a4]:checked").val();
-    var increment = -1;
-    price=0
-
-    items=[x,z,w,y];
-    values=["1","2","3","4"];
-
-    for(i=0;i<=items.length;i++){
-       if(items[i]==values[i]){
-           increment +=1
-           document.getElementById("counter").innerHTML = increment;
-          values.forEach(function(elements){
-          var numbers = parseInt(elements)
-          for(j=0;j<=numbers;j++){
-            finalPrice=parseInt(price=price+numbers)
-            document.getElementById("price").innerHTML = finalPrice;
-          }
-
-        });
-       }
-     }
-});
-});
-var x = document.getElementById("myCheck1").value;
-var z = document.getElementById("myCheck1").value;
-var w = document.getElementById("myCheck1").value;
-var y = document.getElementById("myCheck1").value;
-var increment = 0;
-
-function increase(){
-  if (x=true){
-    increment+=1;
-    document.getElementById("counter").innerHTML = increment;
-  }
-}
-
-
-
-
-$('section.awSlider .carousel').carousel({
-	pause: "hover",
-  interval: 2000
-});
-
-var startImage = $('section.awSlider .item.active > img').attr('src');
-$('section.awSlider').append('<img src="' + startImage + '">');
-
-$('section.awSlider .carousel').on('slid.bs.carousel', function () {
- var bscn = $(this).find('.item.active > img').attr('src');
-	$('section.awSlider > img').attr('src',bscn);
-});
-=======
 $("#orderBreakfast").click(function(event){
         event.preventDefault();
         $("#food").slideToggle(800);
