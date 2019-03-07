@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
 $(document).ready(function(){
   $("#food").submit(function(event){
     event.preventDefault();
@@ -49,7 +45,6 @@ $(document).ready(function(){
 
 
 
->>>>>>> 44a1f6b7d48e11e7a9ad775284c980fe317a93e4
 $(document).ready(function(){
   $("#display").click(function(){
     $(".navbar").slideToggle(800);
@@ -77,18 +72,6 @@ $(document).ready(function(){
   });
   $("#orderLunch").click(function(){
     $("#choice2").slideDown(80);
-<<<<<<< HEAD
-  });
-  $("#orderDinner").click(function(){
-    $("#choice3").slideDown(80);
-  });
-  $("#packageOne").click(function(){
-    $("#content1").slideToggle(80);
-  });
-  $("#packageTwo").click(function(){
-    $("#content2").slideToggle(80);
-=======
->>>>>>> 44a1f6b7d48e11e7a9ad775284c980fe317a93e4
   });
   $("#orderDinner").click(function(){
     $("#choice3").slideDown(80);
