@@ -343,3 +343,12 @@ p{
 .well{
   width: 800px;
 }
+input{
+  width: 15px;
+  height:15px;
+}
+.food{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: orange;
+}
