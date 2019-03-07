@@ -16,11 +16,10 @@ $(document).ready(function(){
     var k = $("input[name=Bf11]:checked").val();
     var l = $("input[name=Bf12]:checked").val();
     var increment = -1;
-    price=0
+    var price=0
 
     items=[a,b,c,d,e,f,g,h,i,j,k,l];
     values=["199","299","300","200","599","499","699","250","999","1099","1200","450"];
-    prices=[199,299,300,200,599,499,699,250,999,1099,1200,450]
     totalValues=[];
     totalValues.length=0;
     for(i=0;i<=items.length;i++){
@@ -31,27 +30,15 @@ $(document).ready(function(){
 
 
         }
-        for(var j=i;j<=prices.length;j++){
-            prices[j]==items[j]
-            price+=prices
+      }for(j=0;j<=11;j++){
+        if(values[j]==items[j]){
+        price+=parseInt(values[j]);
+        document.getElementById("price").innerHTML = price;
+      }
+    }
 
 
 
-
-        }
-       }
-
-
-
-
-
-       // price+=t;
-       // document.getElementById("price").innerHTML = price;
-
-    //     finalPrice=parseInt(values)
-    //     price+=finalPrice[j];
-    //     document.getElementById("price").innerHTML = price;
-    // }
 
 });
 });
