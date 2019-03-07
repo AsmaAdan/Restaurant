@@ -41,6 +41,10 @@ $(document).ready(function(){
 });
 });
 
+
+
+
+
 $(document).ready(function(){
   $("#display").click(function(){
     $(".navbar").slideToggle(800);
@@ -82,32 +86,4 @@ $(document).ready(function(){
 $("#orderBreakfast").click(function(event){
         event.preventDefault();
         $("#food").slideToggle(800);
-});
-var x = document.getElementById("myCheck1").value;
-var z = document.getElementById("myCheck1").value;
-var w = document.getElementById("myCheck1").value;
-var y = document.getElementById("myCheck1").value;
-var increment = 0;
-
-function increase(){
-  if (x=true){
-    increment+=1;
-    document.getElementById("counter").innerHTML = increment;
-  }
-}
-
-
-
-
-$('section.awSlider .carousel').carousel({
-	pause: "hover",
-  interval: 2000
-});
-
-var startImage = $('section.awSlider .item.active > img').attr('src');
-$('section.awSlider').append('<img src="' + startImage + '">');
-
-$('section.awSlider .carousel').on('slid.bs.carousel', function () {
- var bscn = $(this).find('.item.active > img').attr('src');
-	$('section.awSlider > img').attr('src',bscn);
 });
