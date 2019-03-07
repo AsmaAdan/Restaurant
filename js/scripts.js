@@ -1,18 +1,18 @@
 $(document).ready(function(){
   $("#food").submit(function(event){
     event.preventDefault();
-    var a = $("input[name=Bf1]:checked").val();
-    var b = $("input[name=Bf2]:checked").val();
-    var c = $("input[name=Bf3]:checked").val();
-    var d = $("input[name=Bf4]:checked").val();
-    var e = $("input[name=Bf5]:checked").val();
-    var f = $("input[name=Bf6]:checked").val();
-    var g = $("input[name=Bf7]:checked").val();
-    var h = $("input[name=Bf8]:checked").val();
-    var i = $("input[name=Bf9]:checked").val();
-    var j = $("input[name=Bf10]:checked").val();
-    var k = $("input[name=Bf11]:checked").val();
-    var l = $("input[name=Bf12]:checked").val();
+    var a = $("input[name=torte]:checked").val();
+    var b = $("input[name=strata]:checked").val();
+    var c = $("input[name=waffles]:checked").val();
+    var d = $("input[name=crepes]:checked").val();
+    var e = $("input[name=pizza]:checked").val();
+    var f = $("input[name=pomodoro]:checked").val();
+    var g = $("input[name=lasagna]:checked").val();
+    var h = $("input[name=cotta]:checked").val();
+    var i = $("input[name=casserole]:checked").val();
+    var j = $("input[name=loaf]:checked").val();
+    var k = $("input[name=tortilla]:checked").val();
+    var l = $("input[name=tiramisu]:checked").val();
     var increment = -1;
     var price=0
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
     for(i=0;i<=items.length;i++){
        if(items[i]==values[i]){
            increment +=1
-           document.getElementById("counter").innerHTML = increment;
+           document.getElementById("counter").innerHTML ="Items "+increment;
            t=totalValues.push(parseInt(values));
 
 
@@ -31,20 +31,12 @@ $(document).ready(function(){
       }for(j=0;j<=11;j++){
         if(values[j]==items[j]){
         price+=parseInt(values[j]);
-        document.getElementById("price").innerHTML = "Sh"+price;
+        document.getElementById("price").innerHTML ="ksh "+price;
       }
     }
 
-
-
-
 });
 });
-
-
-
-
-
 $(document).ready(function(){
   $("#display").click(function(){
     $(".navbar").slideToggle(800);
