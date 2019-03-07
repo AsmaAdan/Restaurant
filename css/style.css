@@ -81,6 +81,9 @@
   height: 300px;
   margin-bottom: 100px;
 }
+#people{
+  width: 90px;
+}
 #logo>span{
   background-color: black;
   opacity: 0.6;
@@ -112,10 +115,12 @@ font-size: 25px;
 font-weight: 600;
 font-family: 'Roboto', sans-serif;
 }
-body{
-  max-width: 100%;
+main{
+  max-width: 98%;
   overflow-x: hidden;
   z-index: 1;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 @media screen and (max-width:800px){
@@ -316,11 +321,11 @@ section.awSlider > img{
   height: 300px;;
 }
 .image-responsive{
-  width: 450px;
-  height: 400px;
+  width: 480px;
+  height: 450px;
   max-height: 500px;
   background-attachment: fixed;
-
+ z-index: 1;
 }
 .name{
   text-align: center;
@@ -336,10 +341,21 @@ section.awSlider > img{
   font-weight: 400;
 }
 p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  text-decoration:
+  font-family: 'Roboto', sans-serif italics;
+  font-size: 13px;
   font-weight: 400;
 }
 .well{
-  width: 800px;
+  z-index: 2;
+  width: 700px;
+}
+input{
+  width: 15px;
+  height:15px;
+}
+.food{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: orange;
 }
