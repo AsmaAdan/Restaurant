@@ -362,12 +362,7 @@ blockquote::after{
   background-attachment: fixed;
 
 }
-#lunch2{
-  width: 700px;
-  height: 450px;
-  margin-left: 0px;
 
-}
 .name{
   text-align: center;
   color: red;
@@ -385,10 +380,6 @@ p{
   font-family: 'Roboto', sans-serif,;
   font-size: 13px;
   font-weight: 400;
-}
-.well{
-
-  width: 650px;
 }
 input{
   width: 15px;
