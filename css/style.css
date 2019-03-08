@@ -69,7 +69,7 @@
 #footer{
   background-color: #FC9E15;
   #8B4513;
-  height: 350px;
+  height: 370px;
   width: 95%;
   padding:inherit;
   margin: auto;
@@ -392,4 +392,15 @@ input{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: orange;
+}
+.same{
+  font-family: 'Srisakdi', cursive;
+  font-size: 30px;
+  color: #0B8E99;
+  text-decoration: underline;
+}
+.staff{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: black;
 }
