@@ -362,6 +362,12 @@ blockquote::after{
   background-attachment: fixed;
 
 }
+#lunch2{
+  width: 700px;
+  height: 450px;
+  margin-left: 0px;
+
+}
 .name{
   text-align: center;
   color: red;

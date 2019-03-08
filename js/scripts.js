@@ -40,7 +40,7 @@ $(document).ready(function(){
 
       }
     }
-    window.location.href = 'mailto: dicksonparlma@gmail.com,asmaahmed.adan@gmail.com, jlmukono@gmail.com ?subject=Please complete your order &body=Your bill is '+" "+(price*people)+" "+"for"+" "+delivery;
+    window.location.href = 'mailto: dicksonparlma@gmail.com,asmaahmed.adan@gmail.com, jlmukono@gmail.com, wambitafana@gmail.com ?subject=Please complete your order &body=Your bill is '+" "+(price*people)+" "+"for"+" "+delivery;
 });
 
 });
