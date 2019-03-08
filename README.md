@@ -4,7 +4,6 @@
 #### By [Dickson Nyaigoti](https://github.com/deeksonparlma)
 #### By [Joel Mkuono](https://github.com/Joelmukono)
 #### By [Wambita Sheila Fana](https://github.com/Wambita)
-#### By [Eugene Sakwa)](https://github.com/EugeneSakwa)
 ##### Learning JavaScript at Moringa School prep requires the setting up of an application using HTML,CSS and JavaScript by a group of collaborators.
 ##### This particular application, allows users to view, choose and then place an order of the food they want.
 ##### It allows the user to order the food in the restaurant premises, take a delivery or pre-order the food while en-route.
